@@ -8,11 +8,11 @@
 #include <PubSubClient.h>
 
 // Wifi network station credentials
-#define WIFI_SSID "SINAR RIAU"
-#define WIFI_PASSWORD "jolysitisu"
+#define WIFI_SSID "" // YOUR WIFI SSID NAME
+#define WIFI_PASSWORD "" // YOUR WIFI PASSWORD
 
 // Telegram BOT Token (Get from Botfather)
-#define BOT_TOKEN "6781353313:AAEaoE_Vfl9CtyfRtntwX0nJUWgl1gaCU9E"
+#define BOT_TOKEN "" // YOUR BOT TOKEN 
 
 const char* mqtt_server = "mqtt-dashboard.com";
 
@@ -37,10 +37,10 @@ bool signupOK = false;
 #define SMTP_PORT esp_mail_smtp_port_587 // port 465 is not available for Outlook.com
 
 /* The log in credentials */
-#define AUTHOR_EMAIL "indahrani08@gmail.com"
-#define AUTHOR_PASSWORD "zusvjnhyksioigpn"
+#define AUTHOR_EMAIL "" // YOUR EMAIL ADDRESS WILL BE USED TO SEND THE OTP CODE
+#define AUTHOR_PASSWORD "zusvjnhyksioigpn" //YOUR AUTHOR PASSWORD OF ACCOUNT GOOGLE, THIS PASSWORD IS DIFFERENT FROM YOUR GOOGLE ACCOUNT PASSWORD. THIS PASSWORD IS OBTAINED WHEN YOU CREATE APP PASSWORD(https://support.google.com/mail/answer/185833?hl=en) 
 
-#define RECIPIENT_EMAIL "hha834470@gmail.com"
+#define RECIPIENT_EMAIL "" // YOUR EMAIL ADDRESS WILL BE USED TO RECEIVE THE OTP CODE
 String newCode ;
 SMTPSession smtp;
 
